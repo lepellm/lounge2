@@ -30,7 +30,7 @@ h2 {
   background-repeat: no-repeat;
   background-position: top left;
 }
-#elixirs {
+.elixirs {
   border-width: thin;
   border-style: solid;
   border-color: #007e7e;
@@ -49,13 +49,16 @@ h2 {
 .artist {
   font-weight: bold;
 }
-#elixirs a:link {
+.elixirs a:link {
   color: #007e7e;
 }
-#elixirs a:visited {
+.elixirs a:visited {
   color: #333333;
 }
-#elixirs a:hover {
+.elixirs a:hover {
   background: #f88396;
   color: #0d5353;
+}
+.elixirs {
+  float: right;
 }
